@@ -44,7 +44,7 @@
         in
           pkgs.callPackage ./nix-alien.nix {
             nix-index = nix-index-database.packages.${system}.nix-index-with-db;
-          };
+          }
       );
     };
 }
