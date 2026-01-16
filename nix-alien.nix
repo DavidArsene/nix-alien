@@ -9,6 +9,7 @@ let
   deps = (lib.importTOML ./src/pyproject.toml).project.dependencies;
 in
 python3.pkgs.buildPythonApplication {
+  version = "0.1.0+whatever";
   pname = "nix-alien";
   format = "pyproject";
 
