@@ -93,7 +93,7 @@ There are also some other options, check them using `--help` flag on each
 program. Example for `nix-alien`:
 
 ```console
-usage: nix-alien [-h] [--version] [-l LIBRARY] [-p PACKAGE] [-c CANDIDATE] [-r] [-d PATH] [-P] [-E] [-s] [-f] program ...
+usage: nix-alien [-h] [-l LIBRARY] [-p PACKAGE] [-c CANDIDATE] [-r] [-d PATH] [-P] [-E] [-s] [-f] program ...
 
 positional arguments:
   program               Program to run
@@ -101,7 +101,6 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --version             show program's version number and exit
   -l LIBRARY, --additional-libs LIBRARY
                         Additional library to search. May be passed multiple times
   -p PACKAGE, --additional-packages PACKAGE

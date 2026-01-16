@@ -12,7 +12,6 @@ from typing import Optional, Union
 from lddwrap import Dependency, list_dependencies
 from pyfzf.pyfzf import FzfPrompt
 
-from ._version import __version__
 from .helpers import get_print
 
 fzf = FzfPrompt()
@@ -122,7 +121,6 @@ def main(args=None):
 
     parser = argparse.ArgumentParser()
     parser.add_argument("program", help="Program to analyze")
-    parser.add_argument("--version", action="version", version=__version__)
     parser.add_argument(
         "-l",
         "--additional-libs",
