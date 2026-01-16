@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nix_alien"
+version = "0.1.0+ro"
 description = "Run unpatched binaries on Nix/NixOS"
 dependencies = [
     "pyfzf",
