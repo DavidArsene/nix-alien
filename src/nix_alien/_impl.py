@@ -168,7 +168,7 @@ def main(
         print(destination)
     elif parsed_args.edit:
         edit_file(destination)
-    elif parsed_args.flake:
+    else:
         create_flake_fn(
             program=parsed_args.program,
             args=parsed_args.ellipsis,
